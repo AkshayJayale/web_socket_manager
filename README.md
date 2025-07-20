@@ -19,7 +19,7 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  web_socket_manager: 1.0.0
+  web_socket_channel_manager: 1.0.0+1
 ```
 
 Import the package in your Dart or Flutter project:
