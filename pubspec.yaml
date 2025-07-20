@@ -1,13 +1,18 @@
-name: web_socket_manager
-description: A starting point for Dart libraries or applications.
+name: web_socket_channel_manager
+description: >
+  A Dart package for robust WebSocket connection management. Provides a singleton manager for easy connection, message sending, multiple subscriptions, and automatic timeout handling. Ideal for Dart and Flutter projects.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/AkshayJayale/web_socket_manager.git
+homepage: https://github.com/AkshayJayale/web_socket_manager
+issue_tracker: https://github.com/AkshayJayale/web_socket_manager/issues
+documentation: https://github.com/AkshayJayale/web_socket_manager#readme
+authors:
+  - Akshay Jayale <akshayjayale@gmail.com>
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.10.0"
 
-# Add regular dependencies here.
 dependencies:
   web_socket_channel: ^3.0.3
 

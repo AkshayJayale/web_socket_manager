@@ -1,5 +1,6 @@
-import 'package:web_socket_manager/web_socket_manager.dart';
 import 'dart:async';
+
+import 'package:web_socket_channel_manager/web_socket_manager.dart';
 
 void main() async {
   // =============================
