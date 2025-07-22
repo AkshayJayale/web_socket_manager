@@ -1,4 +1,4 @@
-# web_socket_manager
+# web_socket_channel_manager
 
 A Dart package for managing WebSocket connections with ease. This package provides a singleton WebSocket manager that supports connection initialization, message sending, multiple subscriptions, automatic timeout handling, and clean resource management. Ideal for Dart and Flutter projects that require robust WebSocket communication.
 
@@ -19,13 +19,13 @@ Add the dependency to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  web_socket_channel_manager: 1.0.0+1
+  web_socket_channel_manager: 1.1.0+2
 ```
 
 Import the package in your Dart or Flutter project:
 
 ```dart
-import 'package:web_socket_manager/web_socket_manager.dart';
+import 'package:web_socket_channel_manager/web_socket_channel_manager.dart';
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ import 'package:web_socket_manager/web_socket_manager.dart';
 Here's a complete example demonstrating how to use the package to connect to a WebSocket server, send a message, subscribe to responses, and handle cleanup:
 
 ```dart
-import 'package:web_socket_manager/web_socket_manager.dart';
+import 'package:web_socket_channel_manager/web_socket_channel_manager.dart';
 import 'dart:async';
 
 void main() async {
@@ -105,7 +105,7 @@ void main() async {
 - The package is suitable for both Dart and Flutter projects.
 - Only one WebSocket connection is managed at a time (singleton pattern).
 - Debug logs are printed only in debug mode.
-- For advanced usage, see the detailed example in `/example/web_socket_manager_example.dart`.
+- For advanced usage, see the detailed example in `/example/web_socket_channel_manager_example.dart`.
 - Contributions, issues, and suggestions are welcome!
 
 ---
